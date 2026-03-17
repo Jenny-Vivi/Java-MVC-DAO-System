@@ -9,7 +9,7 @@ public class ClienteDAO {
 	
 
 	public ClienteDAO() {
-    this.clientes = new ArrayList<>(); // Inicializa la lista siempre aquí
+    this.clientes = new ArrayList<>(); 
 }
 
 	public ClienteDAO(List<Cliente> clientes) {
