@@ -14,7 +14,9 @@ public class ClienteVista {
 		return  leer.next();
 	}
 	public int obtenerNumero() {
-		return leer.nextInt();
-	}
+    int num = leer.nextInt();
+    leer.nextLine(); // Limpia el "salto de línea" que queda en el buffer
+    return num;
+}
 
 }
